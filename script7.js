@@ -33,6 +33,9 @@ console.log(nomes_invertidos, 'Nomes ao contrário')
 
 const nomes_com_a = []
 for (let i = 0; i < nomes.length; i++) {
+    // const nome = nomes[i]
+    // nome[0].toLowerCase() == "a"
+    // nomes[i][0].toLowerCase() == "a"
     if (nomes[i].toLowerCase().startsWith('a')) {
         nomes_com_a.push(nomes[i])
     }
